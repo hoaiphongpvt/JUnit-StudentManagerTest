@@ -105,7 +105,7 @@ public class StudentManagerTest {
         Assertions.assertEquals(1, studentManager.getAllStudents().size());
     }
 
-    //Repected Tests
+    //Repeated Tests
     @DisplayName("Repeat Student Creation Test 3 Times")
     @RepeatedTest(value = 3)
     public void shouldTestStudentCreationRepeatedly() {
@@ -125,7 +125,7 @@ public class StudentManagerTest {
         Assertions.assertEquals(1, studentManager.getAllStudents().size());
     }
 
-    //Parameterized Test using ValueSource
+    //Parameterized Test using MethodSource
     @DisplayName("Repeat Student Creation Test 3 Times With Parameterized Test using ValueSource")
     @ParameterizedTest
     @MethodSource("phoneNumberList")
