@@ -2,14 +2,14 @@ public class Student {
     private String firstName;
     private String lastName;
     private int Age;
-    private  String Adress;
+    private  String Address;
     private String PhoneNumber;
 
-    public Student(String firstName,String lastName, int age, String adress, String phoneNumber) {
+    public Student(String firstName,String lastName, int age, String address, String phoneNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.Age = age;
-        this.Adress = adress;
+        this.Address = address;
         this.PhoneNumber = phoneNumber;
     }
 
@@ -33,8 +33,8 @@ public class Student {
         Age = age;
     }
 
-    public void setAdress(String adress) {
-        Adress = adress;
+    public void setAddress(String adress) {
+        Address = adress;
     }
 
     public void setPhoneNumber(String phoneNumber) {
@@ -45,8 +45,8 @@ public class Student {
         return Age;
     }
 
-    public String getAdress() {
-        return Adress;
+    public String getAddress() {
+        return Address;
     }
 
     public String getPhoneNumber() {

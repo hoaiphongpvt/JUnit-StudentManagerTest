@@ -71,7 +71,7 @@ public class StudentManagerTest {
         Assertions.assertTrue(studentManager.getAllStudents().stream()
                 .filter(student -> student.getFirstName().equals("Phong") &&
                         student.getLastName().equals("Nguyen") &&
-                        student.getAdress().equals("LA") &&
+                        student.getAddress().equals("LA") &&
                         student.getPhoneNumber().equals("0855559851"))
                 .findAny()
                 .isPresent());
@@ -88,7 +88,7 @@ public class StudentManagerTest {
         Assertions.assertTrue(studentManager.getAllStudents().stream()
                 .filter(student -> student.getFirstName().equals("Phong") &&
                         student.getLastName().equals("Nguyen") &&
-                        student.getAdress().equals("LA") &&
+                        student.getAddress().equals("LA") &&
                         student.getPhoneNumber().equals("0855559851"))
                 .findAny()
                 .isPresent());
